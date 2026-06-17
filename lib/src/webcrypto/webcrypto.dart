@@ -25,7 +25,7 @@ import 'dart:async';
 import 'dart:typed_data';
 import '../impl_interface/impl_interface.dart';
 import '../impl_stub/impl_stub.dart'
-    if (dart.library.ffi) '../impl_ffi/impl_ffi.dart'
+    if (dart.library.ffi) '../impl_jni/impl_jni.dart'
     if (dart.library.js_interop) '../impl_js/impl_js.dart'
     show webCryptImpl;
 
